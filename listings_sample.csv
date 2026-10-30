@@ -1,0 +1,7 @@
+listing_url,title,locality,bhk,floor,rent,power_backup,owner_name,owner_phone,notes
+https://www.nobroker.in/property/example-1,3BHK in Sample Apartments,Example Locality A,3,7,26000,yes,Owner One,9000000001,
+https://www.nobroker.in/property/example-2,3BHK near Main Road,Example Locality A,3,3,22000,yes,Owner Two,9000000002,low floor
+https://www.nobroker.in/property/example-3,3BHK in Demo Residency,Example Locality B,3,5,24000,unknown,Owner Three,9000000003,
+https://www.nobroker.in/property/example-4,2BHK Example Locality A,Example Locality A,2,6,18000,yes,Owner Four,9000000004,
+https://www.nobroker.in/property/example-5,3BHK Park View,Example Locality A,3,9,35000,yes,Owner Five,9000000005,over budget
+https://www.nobroker.in/property/example-6,3BHK high floor,Example Locality B,3,8,28000,no,,9000000006,

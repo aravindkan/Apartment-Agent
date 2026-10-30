@@ -1,0 +1,8 @@
+# keep personal data out of the repo
+shortlist.csv
+results.csv
+state.json
+listings.csv
+config.local.yaml
+.env
+__pycache__/

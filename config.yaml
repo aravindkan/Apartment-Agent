@@ -1,0 +1,45 @@
+# ---------------------------------------------------------------
+# Apartment screening agent: your preferences and call settings
+# Edit this file; no code changes needed.
+# ---------------------------------------------------------------
+
+your_name: "Your Name"
+
+preferences:
+  bhk: 3
+  floor_min: 5
+  floor_max: 10
+  max_rent: 30000            # INR per month; set to your real ceiling
+  localities:                # a listing must match one of these (case-insensitive substring)
+    - Example Locality A
+    - Example Locality B
+  move_in: "next month"
+  lease: "11-month agreement"
+  notice: "1-month notice period"
+  lock_in: "no lock-in penalty after the first 3 months"
+  nice_to_have:
+    - power backup
+    - fibre internet / broadband available
+
+# Viewing slots the agent is allowed to offer (local time, IST).
+# Each slot is booked at most once; booked slots are removed automatically.
+viewing_slots:
+  - "Saturday, 11:00 AM"
+  - "Saturday, 4:00 PM"
+  - "Sunday, 11:00 AM"
+  - "Sunday, 4:00 PM"
+
+calling:
+  allowed_start_hour: 10     # don't call owners before 10:00 IST
+  allowed_end_hour: 19       # or after 19:00 IST
+  gap_seconds: 60            # pause between calls
+  max_call_seconds: 300
+
+vapi:
+  # Set these as environment variables instead of here if you prefer:
+  #   VAPI_API_KEY, VAPI_PHONE_NUMBER_ID
+  api_key: ""
+  phone_number_id: ""
+  model: "gpt-4o"
+  voice_provider: "11labs"
+  voice_id: "burt"           # pick any Vapi/11labs voice you like in the Vapi dashboard
